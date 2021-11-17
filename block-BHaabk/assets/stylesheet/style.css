@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* custom styles */
+
+body {
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+*, *::after,*::before {
+    box-sizing: border-box;
+}
+
+.container-1 {
+    display: flex;
+    margin: 0 auto;
+    width: 1300px;
+    padding: 32px;
+    justify-content: space-between;
+}
+
+.brand {
+    width: 300px;
+    height: 180px;
+}
+
+.header {
+    background-color: black;
+
+}
+
+.nav {
+    margin: 80px 0;
+}
+
+.nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+/* container-2 */
+
+.container-2{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 32px;
+    }
+
+.article img {
+    width: 330px;
+    border-radius: 20px;
+    
+} 
+.article-heading {
+    width: 770px;
+}
+
+.article {
+      display: flex;
+      justify-content: space-between;
+      }
+
+.article .para {
+       line-height: 1.9;
+        font-size: 17px;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 25px 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* gallery section */
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+.img-gallery {
+      width: 30.9%;
+      height: 200px;
+      margin: 1%;
+      border-radius: 3%;
+      }
+
+.last-img {
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/* FOOTER */
+
+small {
+    text-transform: uppercase;
+    color: white;
+    }
+
+
+footer {
+   background-color: rgb(4, 4, 39);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.lastnav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    font-size: 25px;
+}
