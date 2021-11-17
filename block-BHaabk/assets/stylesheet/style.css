@@ -68,12 +68,13 @@ body {
 
 .brand {
     width: 300px;
-    height: 180px;
+    height: 150px;
 }
 
 .header {
     background-color: black;
-
+    position: fixed;
+    width: 100%;
 }
 
 .nav {
@@ -88,6 +89,10 @@ body {
 }
 
 /* container-2 */
+
+.section1 {
+   padding-top: 240px;
+}
 
 .container-2{
     margin: 0 auto;
@@ -165,4 +170,19 @@ footer {
     color: white;
     margin-left: 25px;
     font-size: 25px;
+}
+
+.top-btn {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(189, 10, 10);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    align-items: center;
+    justify-content: center;
 }
