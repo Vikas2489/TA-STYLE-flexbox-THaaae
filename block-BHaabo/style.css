@@ -63,7 +63,7 @@ body {
     margin: 0 auto;
     padding: 32px 0;
     display: flex;
-    justify-content: space-between;
+    
 }
 
 /* header */
@@ -74,13 +74,13 @@ body {
 .brand {
     width: 200px;
     border-radius: 20px;
-}
+    }
 
 .main-heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    }
 
 .sarah {
     color: white;
@@ -139,10 +139,7 @@ aside {
     color: orangered;
     padding-left: 35px;
     border-radius: 20px;
-    
-    
-    
-}
+    }
 
 .log-out {
     padding: 26px 14px;
